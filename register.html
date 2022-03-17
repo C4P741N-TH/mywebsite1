@@ -1,0 +1,26 @@
+<html>
+<body>
+<form name="Register" method="post" action="registeraction.php">
+	Username<br>
+	<input type="text" name="register_username" required><br><br>
+	Password<br>
+	<input type="password" name="register_password" required><br><br>
+	Name<br>
+	<input type="text" name="register_name" required><br><br>
+	Phone<br>
+	<input type="text" name="register_phone" minlength="10" maxlength="10" required><br><br>
+	Email<br>
+	<input type="text" name="register_email" required><br><br>
+
+	Secert Q&A for recovery password<br>
+	Question&nbsp;<input type="text" name="set_q" required>?<br><br>
+	Answer&nbsp;&nbsp;&nbsp;<input type="text" name="set_a" required><br><br>
+
+	<input type="submit" name="register_btn" value="Sign up"><br><br>
+</form>
+<form>
+	Already have an account? <button formaction='login.html'>Log in</button><br><br>
+	<button formaction="index.php">Back to index</button>
+</form>
+</body>
+</html>
